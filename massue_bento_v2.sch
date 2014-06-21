@@ -1,10 +1,12 @@
 EESchema Schematic File Version 2
 LIBS:power
+LIBS:tom_kicad
+LIBS:device
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Massue Bento"
 Date ""
 Rev "v2"
