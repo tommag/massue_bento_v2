@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:power
+LIBS:tom_kicad
 LIBS:device
 LIBS:transistors
 LIBS:conn
