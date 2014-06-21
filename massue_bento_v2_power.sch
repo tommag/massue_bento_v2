@@ -1,9 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:power
-<<<<<<< HEAD
 LIBS:tom_kicad
-LIBS:device
-=======
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -35,16 +32,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:tom_kicad
 LIBS:massue_bento_v2_power-cache
->>>>>>> FETCH_HEAD
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
 Sheet 1 4
-=======
-Sheet 1 1
->>>>>>> FETCH_HEAD
 Title ""
 Date ""
 Rev ""
