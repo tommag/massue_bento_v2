@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:tom_kicad
+LIBS:massue_bento_v2_rf-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -350,17 +351,6 @@ Wire Wire Line
 	7000 4300 7350 4300
 Wire Wire Line
 	7350 4250 7350 4350
-$Comp
-L +3.3V #PWR010
-U 1 1 53A588D9
-P 7350 4250
-F 0 "#PWR010" H 7350 4210 30  0001 C CNN
-F 1 "+3.3V" H 7350 4360 30  0000 C CNN
-F 2 "" H 7350 4250 60  0000 C CNN
-F 3 "" H 7350 4250 60  0000 C CNN
-	1    7350 4250
-	1    0    0    -1  
-$EndComp
 Connection ~ 7350 4300
 $Comp
 L C C?
@@ -612,4 +602,15 @@ Wire Wire Line
 	5150 1600 5150 1700
 Wire Wire Line
 	2550 1600 2550 1450
+$Comp
+L VBAT #PWR?
+U 1 1 53A58531
+P 7350 4250
+F 0 "#PWR?" H 7350 4310 30  0001 C CNN
+F 1 "VBAT" H 7350 4360 30  0000 C CNN
+F 2 "" H 7350 4250 60  0000 C CNN
+F 3 "" H 7350 4250 60  0000 C CNN
+	1    7350 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
