@@ -1,7 +1,36 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:tom_kicad
 LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tom_kicad
+LIBS:massue_bento_v2-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -637,16 +666,16 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR?
 U 1 1 53A68E13
-P 9550 4100
-F 0 "#PWR?" H 9550 4060 30  0001 C CNN
-F 1 "+3.3V" H 9550 4210 30  0000 C CNN
-F 2 "" H 9550 4100 60  0000 C CNN
-F 3 "" H 9550 4100 60  0000 C CNN
-	1    9550 4100
+P 9550 4050
+F 0 "#PWR?" H 9550 4010 30  0001 C CNN
+F 1 "+3.3V" H 9550 4160 30  0000 C CNN
+F 2 "" H 9550 4050 60  0000 C CNN
+F 3 "" H 9550 4050 60  0000 C CNN
+	1    9550 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 4100 9550 4150
+	9550 4050 9550 4150
 Wire Wire Line
 	10300 4800 10750 4800
 Text Label 10350 4800 0    60   ~ 0
@@ -695,4 +724,243 @@ Text Label 8600 3550 0    60   ~ 0
 CC3000_MOSI
 Text Label 8600 3650 0    60   ~ 0
 CC3000_MISO
+Wire Wire Line
+	6250 2050 6800 2050
+Wire Wire Line
+	6250 2150 6800 2150
+Wire Wire Line
+	6250 4150 6800 4150
+Text Label 6250 2050 0    60   ~ 0
+CC3000_MISO
+Text Label 6250 2150 0    60   ~ 0
+CC3000_MOSI
+Text Label 6250 4150 0    60   ~ 0
+CC3000_SCK
+Wire Wire Line
+	6250 3250 6800 3250
+Wire Wire Line
+	6250 3350 6800 3350
+Wire Wire Line
+	6250 3450 6800 3450
+Text Label 6250 3250 0    60   ~ 0
+FLASH_SCK
+Text Label 6250 3350 0    60   ~ 0
+FLASH_MISO
+Text Label 6250 3450 0    60   ~ 0
+FLASH_MOSI
+Wire Wire Line
+	2150 6950 2750 6950
+Text Label 2250 6950 0    60   ~ 0
+CHRG_STAT
+Wire Wire Line
+	6250 2250 6800 2250
+Wire Wire Line
+	6250 2350 6800 2350
+Wire Wire Line
+	6250 2450 6800 2450
+Text Label 6250 2250 0    60   ~ 0
+CC3000_EN
+Text Label 6250 2350 0    60   ~ 0
+CC3000_IRQ
+Text Label 6250 2450 0    60   ~ 0
+CC3000_CS
+Wire Wire Line
+	6250 2750 6800 2750
+Wire Wire Line
+	6250 2850 6800 2850
+Wire Wire Line
+	6250 2950 6800 2950
+Text Label 6250 2750 0    60   ~ 0
+FLASH_CS
+Text Label 6250 2850 0    60   ~ 0
+FLASH_WRITE
+Text Label 6250 2950 0    60   ~ 0
+FLASH_HOLD
+Wire Wire Line
+	2200 3350 2650 3350
+Text Label 2200 3350 0    60   ~ 0
+CHRG_STAT
+$Comp
+L VBAT #PWR?
+U 1 1 53A74F5C
+P 800 2950
+F 0 "#PWR?" H 800 3010 30  0001 C CNN
+F 1 "VBAT" H 800 3060 30  0000 C CNN
+F 2 "" H 800 2950 60  0000 C CNN
+F 3 "" H 800 2950 60  0000 C CNN
+	1    800  2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53A7508F
+P 800 3250
+F 0 "R?" V 880 3250 40  0000 C CNN
+F 1 "10k" V 807 3251 40  0000 C CNN
+F 2 "" V 730 3250 30  0000 C CNN
+F 3 "" H 800 3250 30  0000 C CNN
+	1    800  3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53A751A1
+P 800 3850
+F 0 "R?" V 880 3850 40  0000 C CNN
+F 1 "10k" V 807 3851 40  0000 C CNN
+F 2 "" V 730 3850 30  0000 C CNN
+F 3 "" H 800 3850 30  0000 C CNN
+	1    800  3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53A751ED
+P 800 4150
+F 0 "#PWR?" H 800 4150 30  0001 C CNN
+F 1 "GND" H 800 4080 30  0001 C CNN
+F 2 "" H 800 4150 60  0000 C CNN
+F 3 "" H 800 4150 60  0000 C CNN
+	1    800  4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4150 800  4100
+Wire Wire Line
+	800  3500 800  3600
+Wire Wire Line
+	800  3000 800  2950
+Wire Wire Line
+	800  3550 1350 3550
+Wire Wire Line
+	1350 3550 1350 3250
+Wire Wire Line
+	1350 3250 2650 3250
+Connection ~ 800  3550
+Text Label 1350 3250 0    60   ~ 0
+BATT_MON
+$Comp
+L C C?
+U 1 1 53A75BDC
+P 10150 4350
+F 0 "C?" H 10150 4450 40  0000 L CNN
+F 1 "100nF" H 10156 4265 40  0000 L CNN
+F 2 "" H 10188 4200 30  0000 C CNN
+F 3 "" H 10150 4350 60  0000 C CNN
+	1    10150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4100 10150 4100
+Wire Wire Line
+	10150 4100 10150 4150
+Connection ~ 9550 4100
+$Comp
+L GND #PWR?
+U 1 1 53A75FCE
+P 10150 4600
+F 0 "#PWR?" H 10150 4600 30  0001 C CNN
+F 1 "GND" H 10150 4530 30  0001 C CNN
+F 2 "" H 10150 4600 60  0000 C CNN
+F 3 "" H 10150 4600 60  0000 C CNN
+	1    10150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4600 10150 4550
+$Comp
+L CONN_3 K?
+U 1 1 53A764FD
+P 1450 5050
+F 0 "K?" V 1400 5050 50  0000 C CNN
+F 1 "CONN_3" V 1500 5050 40  0000 C CNN
+F 2 "" H 1450 5050 60  0000 C CNN
+F 3 "" H 1450 5050 60  0000 C CNN
+	1    1450 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 53A765DD
+P 1450 5450
+F 0 "K?" V 1400 5450 50  0000 C CNN
+F 1 "CONN_3" V 1500 5450 40  0000 C CNN
+F 2 "" H 1450 5450 60  0000 C CNN
+F 3 "" H 1450 5450 60  0000 C CNN
+	1    1450 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 53A7661E
+P 1450 5850
+F 0 "K?" V 1400 5850 50  0000 C CNN
+F 1 "CONN_3" V 1500 5850 40  0000 C CNN
+F 2 "" H 1450 5850 60  0000 C CNN
+F 3 "" H 1450 5850 60  0000 C CNN
+	1    1450 5850
+	-1   0    0    1   
+$EndComp
+Text Notes 1050 5100 0    60   ~ 0
+LED1
+Text Notes 1050 5500 0    60   ~ 0
+LED2
+Text Notes 1050 5850 0    60   ~ 0
+LED3
+$Comp
+L +3.3V #PWR?
+U 1 1 53A769C5
+P 2000 4850
+F 0 "#PWR?" H 2000 4810 30  0001 C CNN
+F 1 "+3.3V" H 2000 4960 30  0000 C CNN
+F 2 "" H 2000 4850 60  0000 C CNN
+F 3 "" H 2000 4850 60  0000 C CNN
+	1    2000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53A76E3F
+P 1900 6050
+F 0 "#PWR?" H 1900 6050 30  0001 C CNN
+F 1 "GND" H 1900 5980 30  0001 C CNN
+F 2 "" H 1900 6050 60  0000 C CNN
+F 3 "" H 1900 6050 60  0000 C CNN
+	1    1900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5150 1900 6050
+Wire Wire Line
+	1900 5950 1800 5950
+Wire Wire Line
+	1900 5550 1800 5550
+Connection ~ 1900 5950
+Wire Wire Line
+	1900 5150 1800 5150
+Connection ~ 1900 5550
+Wire Wire Line
+	2000 5850 1800 5850
+Wire Wire Line
+	2000 4850 2000 5850
+Wire Wire Line
+	2000 5450 1800 5450
+Wire Wire Line
+	2000 5050 1800 5050
+Connection ~ 2000 5450
+Connection ~ 2000 5050
+Wire Wire Line
+	1800 5750 2450 5750
+Wire Wire Line
+	1800 5350 2450 5350
+Wire Wire Line
+	1800 4950 2450 4950
+Text Label 2150 4950 0    60   ~ 0
+LED1
+Text Label 2150 5350 0    60   ~ 0
+LED2
+Text Label 2150 5750 0    60   ~ 0
+LED3
+Text Notes 600  6400 0    60   ~ 0
+NB: LED data is handled by bit-banging (1 SPI port is used by the CC3000\nand the other by the flash memory)\nAny pin can be used for the LED data, 3 separate outputs increase code efficiency.
 $EndSCHEMATC
