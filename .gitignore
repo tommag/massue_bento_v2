@@ -1,3 +1,6 @@
 #KiCad project file (contains paths, etc.)
 *.pro
 *.bak
+*.kicad_pcb-bak
+*.orig
+
