@@ -449,19 +449,6 @@ $EndComp
 Wire Wire Line
 	1400 4300 750  4300
 $Comp
-L R R11
-U 1 1 53A70F8B
-P 1050 4400
-F 0 "R11" V 1130 4400 40  0000 C CNN
-F 1 "47k" V 1057 4401 40  0000 C CNN
-F 2 "" V 980 4400 30  0000 C CNN
-F 3 "" H 1050 4400 30  0000 C CNN
-	1    1050 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	750  4300 750  4400
-$Comp
 L C C13
 U 1 1 53A7101D
 P 1950 3300
@@ -493,12 +480,7 @@ Wire Wire Line
 Text HLabel 1300 4600 0    60   Input ~ 0
 AT42_INT
 Wire Wire Line
-	1300 4400 1400 4400
-Wire Wire Line
 	1300 4600 1350 4600
-Wire Wire Line
-	1350 4600 1350 4400
-Connection ~ 1350 4400
 $Comp
 L CONN_7 capacitive1
 U 1 1 53A71D6C
@@ -591,5 +573,7 @@ F 3 "" H 3650 4600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	750  4400 800  4400
+	1350 4600 1350 4400
+Wire Wire Line
+	1350 4400 1400 4400
 $EndSCHEMATC

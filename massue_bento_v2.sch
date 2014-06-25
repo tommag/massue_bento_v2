@@ -682,7 +682,7 @@ Wire Wire Line
 	9550 4050 9550 4150
 Wire Wire Line
 	10300 4800 10750 4800
-Text Label 10350 4800 0    60   ~ 0
+Text Label 10350 4800 1    60   ~ 0
 FLASH_MISO
 Wire Wire Line
 	8150 4800 8800 4800
