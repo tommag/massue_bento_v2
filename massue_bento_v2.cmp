@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = mer. 25 juin 2014 11:57:01 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = jeu. 26 juin 2014 14:07:48 CEST
 
 BeginCmp
 TimeStamp = /53A572BF/53A5A6B5;
@@ -186,14 +186,14 @@ BeginCmp
 TimeStamp = /53A5C053;
 Reference = P1;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5BFC5;
 Reference = P2;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
@@ -214,28 +214,28 @@ BeginCmp
 TimeStamp = /53A652B6;
 Reference = P5;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A66F4E;
 Reference = P6;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A6533B;
 Reference = P7;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A673E3;
 Reference = P8;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
@@ -256,35 +256,35 @@ BeginCmp
 TimeStamp = /53A572BF/53A57C1D;
 Reference = P11;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A572BF/53A57C03;
 Reference = P12;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A572BF/53A57BE6;
 Reference = P13;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A572BF/53A57B90;
 Reference = P14;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A572BF/53A58DA7;
 Reference = P15;
 ValeurCmp = TST;
-IdModule  = Measurement_Points:Measurement_Point_Round-TH_Small;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
