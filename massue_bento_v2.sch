@@ -756,9 +756,9 @@ Text Label 6250 2450 0    60   ~ 0
 CC3000_CS
 Wire Wire Line
 	6250 2950 6800 2950
-Text Label 6250 3650 0    60   ~ 0
-FLASH_CS
 Text Label 6250 4050 0    60   ~ 0
+FLASH_CS
+Text Label 6250 3650 0    60   ~ 0
 FLASH_WRITE
 Text Label 6250 3350 0    60   ~ 0
 FLASH_HOLD
@@ -815,13 +815,9 @@ Wire Wire Line
 Wire Wire Line
 	800  3000 800  2950
 Wire Wire Line
-	800  3550 1350 3550
-Wire Wire Line
-	1350 3550 1350 3250
-Wire Wire Line
-	1350 3250 2650 3250
+	800  3550 2650 3550
 Connection ~ 800  3550
-Text Label 1350 3250 0    60   ~ 0
+Text Label 1300 3550 0    60   ~ 0
 BATT_MON
 $Comp
 L C C4
@@ -945,8 +941,8 @@ LED2
 Text Label 6250 3550 0    60   ~ 0
 LED3
 NoConn ~ 2650 3450
-NoConn ~ 2650 3550
-NoConn ~ 6250 3050
+NoConn ~ 2650 3250
+NoConn ~ 6250 3750
 NoConn ~ 6250 2550
 NoConn ~ 6250 1650
 $Comp
@@ -1016,7 +1012,7 @@ Text Label 8650 2300 0    60   ~ 0
 MPU9150_IRQ
 Wire Wire Line
 	6250 2650 6800 2650
-Text Label 6250 3750 0    60   ~ 0
+Text Label 6250 3050 0    60   ~ 0
 MPU9150_IRQ
 Wire Wire Line
 	9300 2450 8650 2450
@@ -1043,8 +1039,6 @@ F6 "CC3000_SPI_CS" I L 9300 3350 60
 F7 "CC3000_SW_EN" I L 9300 3050 60 
 $EndSheet
 Wire Wire Line
-	6250 3750 6800 3750
-Wire Wire Line
 	7050 3850 7050 3800
 $Comp
 L VBAT #PWR028
@@ -1068,4 +1062,6 @@ NoConn ~ 2650 3650
 NoConn ~ 2650 3850
 NoConn ~ 6250 2750
 NoConn ~ 6250 2850
+Wire Wire Line
+	6250 3050 6800 3050
 $EndSCHEMATC
