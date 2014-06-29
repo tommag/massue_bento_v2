@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = sam. 28 juin 2014 18:46:33 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = dim. 29 juin 2014 14:33:12 CEST
 
 BeginCmp
 TimeStamp = /53A572BF/53A5A6B5;
@@ -242,14 +242,14 @@ BeginCmp
 TimeStamp = /53A5728C/53A5845F;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5728C/53A58619;
 Reference = P10;
 ValeurCmp = CONN_1;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
 EndCmp
 
 BeginCmp
