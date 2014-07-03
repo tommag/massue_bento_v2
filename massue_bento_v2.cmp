@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = jeu. 03 juil. 2014 08:26:43 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = jeu. 03 juil. 2014 18:05:43 CEST
 
 BeginCmp
 TimeStamp = /53A572BF/53A5A6B5;
@@ -424,7 +424,7 @@ BeginCmp
 TimeStamp = /53A65D45;
 Reference = U2;
 ValeurCmp = M25P40;
-IdModule  = Tom:SO8N;
+IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 BeginCmp
