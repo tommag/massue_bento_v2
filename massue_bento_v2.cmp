@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = dim. 29 juin 2014 14:33:12 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-08 BZR 4933)-product   date = jeu. 03 juil. 2014 08:26:43 CEST
 
 BeginCmp
 TimeStamp = /53A572BF/53A5A6B5;
@@ -129,6 +129,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53A572F5/53A58856;
 Reference = C18;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A572F5/53B4FE20;
+Reference = C19;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
@@ -456,10 +463,10 @@ IdModule  = Tom:LGA;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A572F5/53A587E2;
+TimeStamp = /53A572F5/53B4FCAB;
 Reference = U8;
-ValeurCmp = MS5607;
-IdModule  = Tom:MS5607 Package;
+ValeurCmp = MPL3115A2;
+IdModule  = Tom:LGA8;
 EndCmp
 
 BeginCmp

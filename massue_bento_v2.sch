@@ -60,7 +60,8 @@ F1 "massue_bento_v2_sensors.sch" 50
 F2 "SDA" I L 9300 2050 60 
 F3 "SCL" I L 9300 2150 60 
 F4 "MPU9150_INT" I L 9300 2300 60 
-F5 "AT42_INT" I L 9300 2450 60 
+F5 "AT42_INT" I L 9300 2400 60 
+F6 "MPL3115_INT" O L 9300 2500 60 
 $EndSheet
 $Comp
 L LPC11U3x U1
@@ -1004,14 +1005,12 @@ Wire Wire Line
 	6250 2650 6800 2650
 Text Label 6250 3050 0    60   ~ 0
 MPU9150_IRQ
-Wire Wire Line
-	9300 2450 8650 2450
-Text Label 8650 2450 0    60   ~ 0
-AT42_INT
+Text Label 8650 2400 0    60   ~ 0
+AT42_IRQ
 Wire Wire Line
 	6250 4250 6800 4250
 Text Label 6250 4250 0    60   ~ 0
-AT42_INT
+AT42_IRQ
 Wire Wire Line
 	2650 2750 2200 2750
 Text Label 6250 1950 0    60   ~ 0
@@ -1046,7 +1045,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 3550 6800 3550
 NoConn ~ 6250 2250
-NoConn ~ 2650 3650
 NoConn ~ 2650 3850
 NoConn ~ 6250 3850
 NoConn ~ 6250 4150
@@ -1064,4 +1062,14 @@ Wire Wire Line
 	6250 3950 6800 3950
 Wire Wire Line
 	2050 3350 2650 3350
+Wire Wire Line
+	8650 2400 9300 2400
+Wire Wire Line
+	9300 2500 8650 2500
+Text Label 8650 2500 0    60   ~ 0
+MPL3115_IRQ
+Wire Wire Line
+	2050 3650 2650 3650
+Text Label 2050 3650 0    60   ~ 0
+MPL3115_IRQ
 $EndSCHEMATC
